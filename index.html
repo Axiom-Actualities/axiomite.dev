@@ -96,13 +96,11 @@
     }
     .mobile-menu-btn {
       display: none;
-      background: linear-gradient(90deg, var(--cyan), var(--green), var(--purple), #f59e0b);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+      background: none;
       border: none;
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       cursor: pointer;
+      line-height: 1;
     }
 
     /* ── HERO ── */
@@ -500,7 +498,7 @@
 <nav>
   <div class="nav-inner">
     <a href="#" class="nav-logo">AXIOMITE.dev</a>
-    <button class="mobile-menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">&#9776;</button>
+    <button class="mobile-menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">&#129480;</button>
     <div class="nav-links">
       <a href="#extraction">Extraction</a>
       <a href="#defense">Defense</a>
