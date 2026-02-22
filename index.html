@@ -448,12 +448,13 @@
     .footer-brand {
       font-family: 'JetBrains Mono', monospace;
       font-weight: 700;
-      font-size: 0.9rem;
+      font-size: 1rem;
       margin-bottom: 0.5rem;
+      letter-spacing: 0.02em;
     }
     .footer-brand span { color: var(--purple); }
     .footer-text { color: var(--text-dim); font-size: 0.8rem; line-height: 1.8; }
-    .footer-links { display: flex; gap: 2rem; justify-content: center; margin-top: 1rem; }
+    .footer-links { display: flex; gap: 1.5rem; justify-content: center; margin-top: 1rem; flex-wrap: wrap; }
     .footer-links a { color: var(--text-dim); text-decoration: none; font-size: 0.8rem; }
     .footer-links a:hover { color: var(--purple); }
 
@@ -476,6 +477,9 @@
       .hero h1 { font-size: 2rem; }
       .cli-table { font-size: 0.75rem; }
       .cli-table .desc { display: none; }
+      footer { padding: 2.5rem 1.5rem; }
+      .footer-links { gap: 1rem; }
+      .footer-brand { font-size: 0.95rem; }
     }
   </style>
 </head>
